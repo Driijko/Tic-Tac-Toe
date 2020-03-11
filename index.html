@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tic-Tac-Toe</title>
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Audio Samples -->
+    <audio
+      class="player1Click"
+      src="./Resources/Sound Effects/player1click.mp3"
+      controls="none"
+      preload="auto"
+    ></audio>
+    <audio
+      class="player2Click"
+      src="./Resources/Sound Effects/player2click.mp3"
+      controls="none"
+      preload="auto"
+    ></audio>
+    <audio
+      class="player1WinsSound"
+      src="./Resources/Sound Effects/player1Wins.mp3"
+      controls="none"
+      preload="auto"
+    ></audio>
+    <audio
+      class="player2WinsSound"
+      src="./Resources/Sound Effects/player2Wins.mp3"
+      controls="none"
+      preload="auto"
+    ></audio>
+    <audio
+      class="tieGameSound"
+      src="./Resources/Sound Effects/tieGame.mp3"
+      controls="none"
+      preload="auto"
+    ></audio>
+    <div class="screen">
+      <div class="gameStatusContainer">
+        <div class="gameStatus">Tic-Tac-Toe</div>
+      </div>
+      <div class="gameBoard">
+        <div class="gameBoardSector sector1"></div>
+        <div class="gameBoardSector sector2"></div>
+        <div class="gameBoardSector sector3"></div>
+        <div class="gameBoardSector sector4"></div>
+        <div class="gameBoardSector sector5"></div>
+        <div class="gameBoardSector sector6"></div>
+        <div class="gameBoardSector sector7"></div>
+        <div class="gameBoardSector sector8"></div>
+        <div class="gameBoardSector sector9"></div>
+      </div>
+      <div class="instructionsContainer">
+        <div class="instructions">Two Player Game</div>
+      </div>
+      <div class="aiOption">vs. AI</div>
+    </div>
+    <script src="./script.js" type="application/javascript"></script>
+  </body>
+</html>
